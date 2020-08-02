@@ -1,5 +1,5 @@
 [Unit]
-#Description=Fan controller
+Description=Fan controller
 After=multi-user.target
 
 [Service]
