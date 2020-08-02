@@ -4,7 +4,7 @@ After=multi-user.target
 
 [Service]
 ExecStart=/usr/bin/python3 /usr/local/sbin/fan.py
-#Restart=on-failure
+Restart=on-failure
 
 [Install]
 WantedBy=multi-user.target
